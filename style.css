@@ -93,6 +93,7 @@ li {
   text-align: center;
   border: none;
   color: #7342d6;
+  display: none;
 }
 
 .menu__backdrop {
@@ -106,6 +107,11 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
+}
+
+.menu--open .menu__backdrop {
+  display: flex;
 }
 
 .menu__links {
@@ -136,8 +142,6 @@ li {
 LANDING
 
 */
-
-
 
 #landing {
   background-color: rgba(115, 66, 214, 0.1);
@@ -288,7 +292,6 @@ HIGHLIGHTS
   margin-bottom: 16px;
 }
 
-
 /* 
 
 FEATURES 
@@ -297,7 +300,7 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115,66,214,0.1);
+  background-color: rgba(115, 66, 214, 0.1);
 }
 
 .books {
@@ -343,9 +346,9 @@ FEATURES
 }
 
 .book__price--normal {
-text-decoration: line-through;
-padding-right: 6px;
-color: #bfbfbf;
+  text-decoration: line-through;
+  padding-right: 6px;
+  color: #bfbfbf;
 }
 
 /* 
@@ -379,7 +382,7 @@ footer {
 
 .footer__link,
 .footer__copyright {
-  color: #fff
+  color: #fff;
 }
 
 .footer__list {
@@ -387,5 +390,15 @@ footer {
 }
 
 .footer__link {
-  padding: 0 12px;
+  padding: 0 8px;
+}
+
+@media (max-width: 550px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
 }
