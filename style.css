@@ -278,7 +278,6 @@ HIGHLIGHTS
   width: calc(100% / 3);
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -440,6 +439,9 @@ footer {
 
   .highlight {
     width: 100%;
+  }
+
+  .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
 }
