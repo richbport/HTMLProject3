@@ -132,6 +132,10 @@ li {
   color: white;
 }
 
+.menu__link:hover {
+  text-decoration: underline;
+}
+
 .btn__menu--close {
   position: absolute;
   right: 20px;
