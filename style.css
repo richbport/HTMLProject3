@@ -80,6 +80,7 @@ li {
 
 .nav__link--primary {
   border: 2px solid #7342d6a3;
+  padding: 8px 16px;
   border-radius: 4px;
 }
 
