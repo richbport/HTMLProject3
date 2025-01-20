@@ -71,7 +71,7 @@ li {
   font-size: 20px;
   color: #7342d6;
   font-weight: bold;
-  padding: 12px;
+  padding: 8px;
 }
 
 .nav__link:hover {
@@ -79,7 +79,7 @@ li {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid #7342d6a3;
   border-radius: 4px;
 }
 
