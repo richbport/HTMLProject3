@@ -246,8 +246,8 @@ HIGHLIGHTS
   position: relative;
 }
 
-#highlights:after,
-#highlights:before {
+#highlights:before,
+#highlights:after {
   background: url("assets/wave.svg");
   content: "";
   position: absolute;
