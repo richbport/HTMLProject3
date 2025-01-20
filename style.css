@@ -278,8 +278,8 @@ HIGHLIGHTS
   padding: 0 24px;
   width: calc(100% / 3);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .highlight__para {
