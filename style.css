@@ -412,6 +412,7 @@ footer {
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
 @media (max-width: 768px) {
   .header__description {
     padding: 0 24px;
