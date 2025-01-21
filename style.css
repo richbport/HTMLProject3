@@ -418,16 +418,16 @@ footer {
     padding: 0 24px;
   }
 
-  .h1 {
-    font-size: 40px;
+  h1 {
+    font-size: 48px;
   }
 
-  .h2 {
-    font-size: 26px;
+  h2 {
+    font-size: 28px;
   }
 
   .btn {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .book {
