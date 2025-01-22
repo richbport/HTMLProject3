@@ -28,7 +28,7 @@ img {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 a {
@@ -289,7 +289,7 @@ HIGHLIGHTS
 
 .highlight__img {
   border: 2px solid #7342d65d;
-  color: #7342d6;
+  color: #7342d6e1;
   width: 100px;
   height: 100px;
   display: flex;
