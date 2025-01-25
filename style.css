@@ -415,11 +415,11 @@ footer {
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .btn {
@@ -430,6 +430,8 @@ footer {
     width: 50%;
   }
 }
+
+/* SMALL PHONES, LARGE SMARTPHONES */
 
 @media (max-width: 550px) {
   .nav__links {
