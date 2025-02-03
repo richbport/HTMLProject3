@@ -248,7 +248,7 @@ HIGHLIGHTS
 
 #highlights:before,
 #highlights:after {
-  background: url('assets/wave.svg');
+  background: url("assets/wave.svg");
   content: "";
   position: absolute;
   width: 101vw;
@@ -449,5 +449,4 @@ footer {
   .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
-  
 }
